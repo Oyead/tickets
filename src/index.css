@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+/* Additional custom styles can go here */
+:root {
+
+  background-image: url(./assets/images/background-desktop.png);
+}
+
+
