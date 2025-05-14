@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import patternCircle from '../assets/images/pattern-circle.svg';
+import squigglyTop from '../assets/images/pattern-squiggly-line-top.svg';
+import squigglyBottom from '../assets/images/pattern-squiggly-line-bottom-desktop.svg';
+import logoFull from '../assets/images/logo-full.svg';
+import uploadIcon from '../assets/images/icon-upload.svg';
+import infoIcon from '../assets/images/icon-info.svg';
 
 export default function FormMain() {
   const [avatar, setAvatar] = useState<File | null>(null);
@@ -65,17 +71,17 @@ export default function FormMain() {
     <div className="relative w-full min-h-screen bg-cover bg-no-repeat bg-center px-4">
 
       <img
-        src="/src/assets/images/pattern-circle.svg"
+        src={patternCircle}
         className="absolute top-[40%] right-[10%] md:right-[20%] w-24 md:w-40 pointer-events-none"
         alt="Pattern Circle"
       />
       <img
-        src="/tickets/images/pattern-squiggly-line-top.svg"
+        src={squigglyTop}
         className="absolute top-10 -right-4 md:w-[390px] pointer-events-none"
         alt="Squiggly Line Top"
       />
       <img
-        src="/src/assets/images/pattern-squiggly-line-bottom-desktop.svg"
+        src={squigglyBottom}
         className="absolute -bottom-7 -left-10 w-48 md:w-[380px] pointer-events-none"
         alt="Squiggly Line Bottom"
       />
@@ -84,7 +90,7 @@ export default function FormMain() {
       <div className="w-full text-center mt-6 max-w-2xl mx-auto">
         <div className="inline-block mb-4">
           <img
-            src="/src/assets/images/logo-full.svg"
+            src={logoFull}
             alt="Logo"
             className="mx-auto w-[350px]"
           />
@@ -134,7 +140,7 @@ export default function FormMain() {
                   className="flex flex-col items-center justify-center cursor-pointer w-full h-full"
                 >
                   <img
-                    src="/src/assets/images/icon-upload.svg"
+                    src={uploadIcon}
                     alt="Upload Icon"
                     className="w-12 mb-4"
                   />
@@ -156,7 +162,7 @@ export default function FormMain() {
         </div>
         <div className="flex flex-row justify-center w-full mt-2">
           <img
-            src="/src/assets/images/icon-info.svg"
+            src={infoIcon}
             className="relative"
             alt="Info Icon"
           />
