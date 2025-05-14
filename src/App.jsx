@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TicketSuccess from './components/TicketSuccess';
-
+import FormMain from './components/FormMain';
 function App() {
   return (
     <Router basename="/tickets">
