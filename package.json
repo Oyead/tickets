@@ -3,15 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Oyead.github.io/tickets",
   "scripts": {
-     "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://Oyead.github.io/ticketGenerator/",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
     "autoprefixer": "^10.4.21",
