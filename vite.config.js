@@ -10,5 +10,5 @@ export default defineConfig({
   },
   plugins: [react(),
             tailwindcss(),],
- base: '/[tickets]/'
+ base: '/tickets/'
 });
