@@ -6,8 +6,7 @@ function App() {
     <Router basename="/tickets">
       <Routes>
         <Route path="/" element={<FormMain/>} />
-        <Route path='ticket' element={<TicketSuccess/>} />
-      </Routes>
+<Route path="/ticket" element={<TicketSuccess />} />      </Routes>
     </Router>
   );
 }
