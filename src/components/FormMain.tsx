@@ -70,7 +70,7 @@ export default function FormMain() {
         alt="Pattern Circle"
       />
       <img
-        src="/src/assets/images/pattern-squiggly-line-top.svg"
+        src="/tickets/images/pattern-squiggly-line-top.svg"
         className="absolute top-10 -right-4 md:w-[390px] pointer-events-none"
         alt="Squiggly Line Top"
       />
