@@ -1,17 +1,13 @@
-import { Routes, Route } from 'react-router-dom'
-import FormMain from './components/FormMain';
-import TicketSuccess from './components/TicketSuccess';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="p-4">
+    <Router basename="/tickets">
       <Routes>
-        <Route path="/" element={<FormMain/>} />
-        <Route path="/ticket" element={<TicketSuccess/>} />
-
+        <Route path="/" element={<HomePage />} />
+        {/* your other routes */}
       </Routes>
-    </div>
-  )
+    </Router>
+  );
 }
-
-export default App
+export default App;
